@@ -10,19 +10,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Manrope:wght@400&display=swap" rel="stylesheet">
   
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          fontFamily: {
-            'fraunces': ['Fraunces', 'serif'],
-            'manrope': ['Manrope', 'sans-serif'],
-          },
-        }
-      }
-    }
-  </script>
+  <link rel="stylesheet" href="./src/input.css">
   <title>Frontend Mentor | Workit landing page</title>
 </head>
 <body class="font-manrope">
@@ -45,7 +33,7 @@
       
       <div class="hero-content text-center">
         <h1 class="font-fraunces text-[2.5rem] font-semibold leading-[100%] mb-10">Data <span class="underline decoration-[#44FFA1] decoration-4">tailored</span> to your needs.</h1>
-        <a href="#features" class="inline-block bg-[#44FFA1] text-[#24053E] w-[151px] h-[53px] leading-[53px]">Learn more</a>
+        <a href="#features" class="inline-block bg-[#44FFA1] text-[#24053E] w-[151px] h-[53px] leading-[53px] font-bold">Learn more</a>
       </div>
       
       <picture class="hero-bg-right">
@@ -106,18 +94,18 @@
   </main>
 
   <!-- Footer -->
-  <footer>
-    <img src="./assets/images/logo-dark.svg" alt="Workit">
+  <footer class="flex flex-col items-center mt-20 pb-16 mb-16">
+    <img src="./assets/images/logo-dark.svg" alt="Workit" class="mb-14">
     
-    <div class="social-links">
-      <a href="#" aria-label="Facebook">
-        <img src="./assets/images/icon-facebook.svg" alt="">
+    <div class="social-links flex gap-7">
+      <a href="#" aria-label="Facebook" class="hover:opacity-70 transition-opacity">
+        <img src="./assets/images/icon-facebook.svg" alt="" class="w-5 h-5">
       </a>
-      <a href="#" aria-label="Twitter">
-        <img src="./assets/images/icon-twitter.svg" alt="">
+      <a href="#" aria-label="Twitter" class="hover:opacity-70 transition-opacity">
+        <img src="./assets/images/icon-twitter.svg" alt="" class="w-5 h-5">
       </a>
-      <a href="#" aria-label="Instagram">
-        <img src="./assets/images/icon-instagram.svg" alt="">
+      <a href="#" aria-label="Instagram" class="hover:opacity-70 transition-opacity">
+        <img src="./assets/images/icon-instagram.svg" alt="" class="w-5 h-5">
       </a>
     </div>
   </footer>

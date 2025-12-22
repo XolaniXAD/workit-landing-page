@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+@theme {
+  --font-fraunces: 'Fraunces', serif;
+  --font-manrope: 'Manrope', sans-serif;
+}
