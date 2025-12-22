@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="overflow-x-hidden">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="./src/input.css">
   <title>Frontend Mentor | Workit landing page</title>
 </head>
-<body class="font-manrope">
+<body class="font-manrope overflow-x-hidden">
 
   <!-- Header with Navigation -->
   <header class="bg-[#24053E] text-white pt-8 px-5 md:pt-10 md:px-10 md:h-[540px] overflow-visible" style="border-radius: 0 0 50% 50% / 0 0 7% 7%;">
@@ -47,27 +47,33 @@
 
   <main class="px-5">
     <!-- Features Section -->
-    <section class="features bg-white pt-[128px] pb-16 px-4" id="features">
-      <div class="max-w-[327px] mx-auto">
+    <section class="features bg-white pt-[128px] md:pt-[200px] pb-16 px-4 md:px-10" id="features">
+      <div class="max-w-[327px] md:max-w-[689px] mx-auto">
         <!-- Feature 1 -->
-        <article class="feature text-center mb-10">
-          <div class="feature-number w-12 h-12 rounded-full border border-[#24053E] flex items-center justify-center mx-auto mb-6 font-fraunces text-xl font-semibold">1</div>
-          <h2 class="font-fraunces text-[28px] font-semibold leading-[36px] mb-4 text-[#24053E]">Actionable insights</h2>
-          <p class="text-base leading-[28px] text-[#584D62]">Optimize your products, improve customer satisfaction and stay ahead of the competition with our product data analytics.</p>
+        <article class="feature text-center md:flex md:text-left md:gap-8 mb-10 md:mb-12">
+          <div class="feature-number w-12 h-12 md:w-12 md:h-12 md:flex-shrink-0 rounded-full border border-[#24053E] flex items-center justify-center mx-auto md:mx-0 mb-6 md:mb-0 font-fraunces text-xl font-semibold">1</div>
+          <div>
+            <h2 class="font-fraunces text-[28px] font-semibold leading-[36px] mb-4 text-[#24053E]">Actionable insights</h2>
+            <p class="text-base leading-[28px] text-[#584D62]">Optimize your products, improve customer satisfaction and stay ahead of the competition with our product data analytics.</p>
+          </div>
         </article>
 
         <!-- Feature 2 -->
-        <article class="feature text-center mb-10">
-          <div class="feature-number w-12 h-12 rounded-full border border-[#24053E] flex items-center justify-center mx-auto mb-6 font-fraunces text-xl font-semibold">2</div>
-          <h2 class="font-fraunces text-[28px] font-semibold leading-[36px] mb-4 text-[#24053E]">Data-driven decisions</h2>
-          <p class="text-base leading-[28px] text-[#584D62]">Make data-driven decisions with our product data analytics. Our AI-generated reports help you unlock insights hidden in your product data.</p>
+        <article class="feature text-center md:flex md:text-left md:gap-8 mb-10 md:mb-12">
+          <div class="feature-number w-12 h-12 md:w-12 md:h-12 md:flex-shrink-0 rounded-full border border-[#24053E] flex items-center justify-center mx-auto md:mx-0 mb-6 md:mb-0 font-fraunces text-xl font-semibold">2</div>
+          <div>
+            <h2 class="font-fraunces text-[28px] font-semibold leading-[36px] mb-4 text-[#24053E]">Data-driven decisions</h2>
+            <p class="text-base leading-[28px] text-[#584D62]">Make data-driven decisions with our product data analytics. Our AI-generated reports help you unlock insights hidden in your product data.</p>
+          </div>
         </article>
 
         <!-- Feature 3 -->
-        <article class="feature text-center">
-          <div class="feature-number w-12 h-12 rounded-full border border-[#24053E] flex items-center justify-center mx-auto mb-6 font-fraunces text-xl font-semibold">3</div>
-          <h2 class="font-fraunces text-[28px] font-semibold leading-[36px] mb-4 text-[#24053E]">Always affordable</h2>
-          <p class="text-base leading-[28px] text-[#584D62]">Always affordable pricing that scales with your business. Get top-quality product data analytics services without hidden costs or unexpected fees.</p>
+        <article class="feature text-center md:flex md:text-left md:gap-8">
+          <div class="feature-number w-12 h-12 md:w-12 md:h-12 md:flex-shrink-0 rounded-full border border-[#24053E] flex items-center justify-center mx-auto md:mx-0 mb-6 md:mb-0 font-fraunces text-xl font-semibold">3</div>
+          <div>
+            <h2 class="font-fraunces text-[28px] font-semibold leading-[36px] mb-4 text-[#24053E]">Always affordable</h2>
+            <p class="text-base leading-[28px] text-[#584D62]">Always affordable pricing that scales with your business. Get top-quality product data analytics services without hidden costs or unexpected fees.</p>
+          </div>
         </article>
       </div>
     </section>
