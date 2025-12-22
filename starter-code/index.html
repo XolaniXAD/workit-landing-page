@@ -16,34 +16,32 @@
 <body class="font-manrope">
 
   <!-- Header with Navigation -->
-  <header class="bg-[#24053E] text-white pt-8 px-5 overflow-visible" style="border-radius: 0 0 50% 50% / 0 0 7% 7%;">
-    <nav class="flex justify-between items-center">
+  <header class="bg-[#24053E] text-white pt-8 px-5 md:pt-10 md:px-10 md:h-[540px] overflow-visible" style="border-radius: 0 0 50% 50% / 0 0 7% 7%;">
+    <nav class="flex justify-between items-center max-w-[1110px] md:mx-auto">
       <a href="/" aria-label="Home">
         <img src="./assets/images/logo-light.svg" alt="Workit">
       </a>
-      <a href="#apply" class="border-b-[3px] border-[#44FFA1] font-bold text-lg leading-[180%]">Apply for access</a>
+      <a href="#apply" class="border-b-[3px] border-[#44FFA1] font-bold text-lg leading-[180%] hover:text-[#44FFA1] transition-colors">Apply for access</a>
     </nav>
 
     <!-- Hero Section -->
-    <div class="hero mt-14">
-      <picture class="hero-bg-left">
-        <source media="(min-width: 768px)" srcset="./assets/images/bg-pattern-1.svg">
-        <img src="" alt="">
+    <div class="hero mt-14 md:mt-14 relative">
+      <picture class="hero-bg-left hidden md:block absolute left-[-250px] top-[-50px]">
+        <img src="./assets/images/bg-pattern-1.svg" alt="" class="h-[300.1px] w-auto">
       </picture>
       
-      <div class="hero-content text-center">
-        <h1 class="font-fraunces text-[2.5rem] font-semibold leading-[100%] mb-10">Data <span class="underline decoration-[#44FFA1] decoration-4">tailored</span> to your needs.</h1>
-        <a href="#features" class="inline-block bg-[#44FFA1] text-[#24053E] w-[151px] h-[53px] leading-[53px] font-bold">Learn more</a>
+      <div class="hero-content text-center md:max-w-[573px] md:mx-auto">
+        <h1 class="font-fraunces text-[2.5rem] md:text-[60px] font-semibold leading-[100%] mb-10 md:mb-12 md:leading-[100%] md:max-w-[475px] md:mx-auto">Data <span class="underline decoration-[#44FFA1] decoration-4">tailored</span> to your needs.</h1>
+        <a href="#features" class="inline-block bg-[#44FFA1] text-[#24053E] w-[151px] h-[53px] leading-[53px] font-bold hover:bg-[#24053E] hover:text-[#44FFA1] hover:border-2 hover:border-[#44FFA1] transition-all">Learn more</a>
       </div>
       
-      <picture class="hero-bg-right">
-        <source media="(min-width: 768px)" srcset="./assets/images/bg-pattern-2.svg">
-        <img src="" alt="">
+      <picture class="hero-bg-right hidden md:block absolute right-[-125px] top-[170px]">
+        <img src="./assets/images/bg-pattern-2.svg" alt="" class="h-[181.05px] w-auto">
       </picture>
     </div>
 
-    <div class="hero-image flex justify-center relative z-10 -mt-4">
-      <img src="./assets/images/image-hero.webp" alt="Mobile phone displaying the Workit app interface" class="w-[267px] translate-y-1/2">
+    <div class="hero-image flex justify-center relative z-10 -mt-4 md:-mt-24">
+      <img src="./assets/images/image-hero.webp" alt="Mobile phone displaying the Workit app interface" class="w-[267px] md:w-[514px] translate-y-1/2">
     </div>
   </header>
 
